@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+struct college_info{
+    string college_name;
+    int college_code;
+    string dept;
+    int intake;
+ };
+ int main (){
+   college_info c1;
+   c1. college_name = "government polytechnic junagadh ";
+   c1. college_code = 619;
+   c1. dept = "computer";
+   c1. intake = 79;
+   
+   cout << "college_name:" <<c1.college_name<<endl;
+   cout << "college_code:" <<c1.college_code<< endl;
+   cout << "dept :" << c1.dept<< endl;
+   cout << "intake:" << c1.intake<< endl;
+   
+      return 0;
+ }
